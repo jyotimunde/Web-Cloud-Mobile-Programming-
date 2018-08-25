@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 250px;
+            border-collapse: collapse;
+            border: 1px  black ;
+        }
+        td {
+            border: 1px solid black;
+        }
+
+        td::before {
+            content: '';
+            display: table;
+            margin: 50%;
+            width: 50px;
+
+        }
+
+        td:nth-of-type(1) {
+            border-left-color: transparent;
+            border-top-color: transparent;
+        }
+        td:nth-of-type(2) {
+            border-top-color: transparent;
+
+        }
+        tr:nth-of-type(3) td {
+            border-bottom-color: transparent;
+        }
+        td:nth-of-type(3) {
+            border-top-color: transparent;
+            border-right-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tic tac toe game</h2>
+
+
+<table>
+    <div>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </div>
+</table>
+</body>
+</html>
