@@ -1,6 +1,6 @@
 // User will select rock paper or scissors
 var userChoice = prompt("Select rock, paper or scissors");
-window.alert("You have selected:" + userChoice );
+window.alert("You have selected-" + userChoice );
 // Computer will give one there input- select is computer choice here
 var select = Math.random();
 if (select < 0.32) {
@@ -11,7 +11,7 @@ if (select < 0.32) {
     select = "scissors";
 }
 // It will show us what computer has selected
-window.alert("Computer:" + select);
+window.alert("Computer-" + select);
 // Now let us compare the computer and user choice
 var compare = function(ch1,ch2) {
     if (ch1 === ch2) {
@@ -46,4 +46,4 @@ var compare = function(ch1,ch2) {
     }
 };
 var results = compare(userChoice,select);// now compare the results for computer and user
-window.alert("Here is the result " + results); // it will show us the output
+window.alert("Here is the result- " + results); // it will show us the output
