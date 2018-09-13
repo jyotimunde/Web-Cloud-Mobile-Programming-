@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #b9def0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #75ffe4;
+}
+
+
+h2{text-align: center;
+color: #843534;
+background-color:#75ffe4}
