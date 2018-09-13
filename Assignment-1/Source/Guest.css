@@ -12,7 +12,7 @@ text-align: center;
 
 }
 
-/* Clearfix (clear floats) */
+
 .row {
     display: flex;
 }
