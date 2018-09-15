@@ -8,3 +8,5 @@ ICP1
 6)colour picker- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Colour-finder
 7)github user finder- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Github-user-finder
 8) Assignment 1- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Assignment1
+9) Todo- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Todo
+10) Calculator- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Calculator
