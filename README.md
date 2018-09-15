@@ -7,3 +7,4 @@ ICP1
 5)RWD task- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/RWD
 6)colour picker- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Colour-finder
 7)github user finder- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Github-user-finder
+8) Assignment 1- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Assignment1
