@@ -1,0 +1,35 @@
+body { background-color: #6a737d}
+div input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+form{text-align: center;
+vertical-align: middle;
+}
+h2{text-align: center}
+button{ background-color: #7b7b61;
+    border: #3c3c3c;
+    height:20px;
+  width:100px;
+  margin: -20px -50px;
+
+  position:relative;
+  top:50%;
+  left:50%;
+
+}
+
+input{
+    background-color: #b9def0;
+    color: #8a6d3b;
+    width:300px;
+
+    position:relative;
+    left: 50px;
+    text-align: center;
+
+    vertical-align:middle;
+}
+div,input [type='checkbox']{text-align:center;padding: 5px;vertical-align: center;position:relative;top:5%;right: 15%;color: #843534;border: #0b93ff}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="calculator.js"></script>
+    <style>
+       h2{text-align: center;
+           background-color: #b9def0;
+       }
+       div{text-align: center;
+       background-color: #3e8f3e;
+       height: 2500px}
+       select,input [type='number']{text-align: center;padding: 5px}
+       input {text-align: center}
+    </style>
+    <h2>Calculator</h2>
+    <div ng-app="CalculatorApp" ng-controller="CalculatorController">
+    <p><input type="number" ng-model="c" placeholder="Scroll to select the number"></p>
+    <p><input type="number" ng-model="d" placeholder="Scroll to select the number"></p>
+    <p><select ng-model="operations">
+        <option>+</option>
+        <option>*</option>
+        <option>-</option>
+        <option>/</option>
+    </select></p>
+    <p> Here you get Result- {{ result() }}</p>
+</div>
+</head>
+<body>
+</body>
+</html>
