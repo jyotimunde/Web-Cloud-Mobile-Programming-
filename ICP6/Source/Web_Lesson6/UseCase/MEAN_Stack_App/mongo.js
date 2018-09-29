@@ -72,7 +72,7 @@ var deleteBook = function (db,data,callback) {
     db.collection('books').deleteOne( {_id: new mongodb.ObjectID(data)}, function(err, result) {
         if(err)
         {
-            res.write("Registration Failed, Error While Registering");
+            res.write("Deletion failed,Error while deleting");
             res.end();
         }
         console.log("Deleted book from the collection.");
