@@ -10,3 +10,5 @@ ICP1
 8) Assignment 1- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Assignment1
 9) Todo- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Todo
 10) Calculator- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Calculator
+11) Restaurants- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Restaurant
+12) Translator- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Translate
