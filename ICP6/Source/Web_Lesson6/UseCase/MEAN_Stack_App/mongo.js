@@ -114,7 +114,7 @@ var deleteBook = function (db,data,callback) {
             res.write("Registration Failed, Error While Registering");
             res.end();
         }
-        console.log("Deleted book from collection.");
+        console.log("Deleted book from the collection.");
         callback();
     })
 };
