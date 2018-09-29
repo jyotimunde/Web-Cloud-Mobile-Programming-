@@ -68,6 +68,17 @@ app.get('/delete/:toBeDeleted_id', function (req, res) {
         });
     });
 });
+var deleteBook = function (db,data,callback) {
+    db.collection('books').deleteOne( {_id: new mongodb.ObjectID(data)}, function(err, result) {
+        if(err)
+        {
+            res.write("Registration Failed, Error While Registering");
+            res.end();
+        }
+        console.log("Deleted book from the collection.");
+        callback();
+    })
+};
 
 
 app.get('/update/:toBeUpdated_id', function (req, res) {
@@ -107,17 +118,7 @@ var insertDocument = function(db, data, callback) {
         callback();
     });
 }
-var deleteBook = function (db,data,callback) {
-    db.collection('books').deleteOne( {_id: new mongodb.ObjectID(data)}, function(err, result) {
-        if(err)
-        {
-            res.write("Registration Failed, Error While Registering");
-            res.end();
-        }
-        console.log("Deleted book from the collection.");
-        callback();
-    })
-};
+
 
 var server = app.listen(8081, function () {
     var host = server.address().address;
