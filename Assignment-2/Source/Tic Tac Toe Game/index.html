@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+    <script type= "text/javascript" src="ttt.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+<div ng-app="tttApp" ng-controller="tttCtrl as ctrl">
+    <h1> Tic Tac Toe Game </h1>
+    <div class="container well">
+        <div ng-repeat="row in ctrl.board">
+            <button class="btn-lg" ng-repeat="cell in row" ng-class="cell.value" ng-disabled="ctrl.isTaken(cell) || ctrl.winner" ng-click="ctrl.move(cell)">
+                {{ cell.value }}
+            </button>
+        </div>
+        <p>
+            <span ng-hide="ctrl.winner || ctrl.tie">Present Player- {{ ctrl.presentPlayer }}</span>
+            <span ng-show="ctrl.winner">Player {{ ctrl.presentPlayer }} has won!</span>
+            <span ng-show="ctrl.draw">Draw</span>
+        </p>
+        <button class="playagain" ng-click="ctrl.reset()">Let's Play Again</button>
+    </div>
+</div>
+</body>
+
+</html>

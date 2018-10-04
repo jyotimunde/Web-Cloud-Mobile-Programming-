@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #080808;
+}
+
+* {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-size: cover;
+    background-color: #843534;
+    background-position: center;
+}
+.row {
+    box-sizing: border-box;
+}
+button {
+    width: 85px;
+    height: 100px;
+    text-align: center;
+    background-color: #b9def0;
+    color: #843534;
+    font-size:35px;
+}
+.playagain {
+
+    width: 250px;
+    text-align: center;
+    background-color: #b9def0;
+    color: #b92c28;
+    font-size:35px;
+}
+.X {
+    color: #b92c28;
+}
+.O {
+    color: #b92c28;
+}
