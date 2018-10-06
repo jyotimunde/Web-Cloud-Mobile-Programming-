@@ -13,3 +13,4 @@
 11) Restaurants- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Restaurant
 12) Translator- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Translate
 13) ICP6-https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/tree/master/ICP6
+14) Assignment2- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Assignment-2
