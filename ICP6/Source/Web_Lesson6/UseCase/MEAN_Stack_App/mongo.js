@@ -9,7 +9,7 @@ var cors = require('cors');
 var app = express();
 var mongodb = require('mongodb');
 
-var url='mongodb://jyoti:nullvalue1@ds119113.mlab.com:19113/assignment';//1.Modify this url with the credentials of your db name and password.
+var url='mongodb://username:password@ds.mlab.com:19113/assignment';//1.Modify this url with the credentials of your db name and password.
 var ObjectID = require('mongodb').ObjectID;
 
 app.use(cors());
