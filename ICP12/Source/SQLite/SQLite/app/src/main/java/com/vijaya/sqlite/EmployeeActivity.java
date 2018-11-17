@@ -153,7 +153,7 @@ private void updateinDB(){ // getting connected to database for updating
     }
     String updatevalue = SampleDBContract.Employee.COLUMN_FIRSTNAME + "='" + firstname + "'";
     database.update(SampleDBContract.Employee.TABLE_NAME,values ,updatevalue,null);// Database Update
-    Toast.makeText(this, "Employe- " + firstname + "was updated in database", Toast.LENGTH_LONG).show();
+    Toast.makeText(this, "Employee- " + firstname + "was updated in database", Toast.LENGTH_LONG).show();
     // Will add the employee successfully and show in database
     }
     //Delete Recorded employee details code-
