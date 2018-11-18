@@ -19,3 +19,5 @@
 17) ICP9- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/ICP9
 18) Assignment 3-https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/Assignment-3
 19) ICP11- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/ICP11
+20) ICP12 Sqlite- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/ICP12--Sqlite
+21) ICP12 Firebase- https://github.com/jyotimunde/Web-Cloud-Mobile-Programming-/wiki/ICP12--Firebase
