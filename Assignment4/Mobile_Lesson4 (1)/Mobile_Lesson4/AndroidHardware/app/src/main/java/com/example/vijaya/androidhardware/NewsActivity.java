@@ -20,7 +20,7 @@ import java.util.HashMap;
 
 public class NewsActivity extends AppCompatActivity {
 
-    String API_KEY = "fea0f7772f26441a9937ca834e9d5129";//Api used from newsapi
+    String API_KEY = "";//Api used from newsapi
     String NEWS_SOURCE = "bbc-sport";// Adding News Channel
     ListView listNews;//list news
     ProgressBar loader;// Progress bar when it takes time to load the page
